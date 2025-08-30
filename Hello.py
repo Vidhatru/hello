@@ -24,10 +24,11 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Welcome to Expense Tracker App! 👋")
-
-    st.write("This website helps you to keep track and manage your day to day expenses!")
-
+    st.title("Welcome to Expense Tracker App!👋")
+    st.markdown(
+      "<p style='color:#00FFAA;font-size:30px;background-color:#e47200'>The Expense Tracker App is a simple to use expenses management which helps you monitor your day to day expenses. With an easy user interface it helps you set monthly budget,track the categories you spent on, and provide this insights through Data and Charts. This app helps you manage your peresonal finances, control overspending helping in giving you a clarity on where you money is spent, helping you make smarter financial decisions.</p>",
+      unsafe_allow_html=True
+    )
 
 if __name__ == "__main__":
     run()
