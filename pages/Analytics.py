@@ -6,7 +6,7 @@ from firebase_admin import credentials, firestore
 from collections import defaultdict
 from datetime import date
 if not firebase_admin._apps:
-    cred1=credentials.Certificate("hello-744b5-firebase-adminsdk-fbsvc-7a93d1a4c1.json")
+    cred1=credentials.Certificate("expense-tracker-3d8c7-firebase-adminsdk-fbsvc-cd5bde5936.json")
     firebase_admin.initialize_app(cred1)
 db = firestore.client()
 users_ref = db.collection("expenses")

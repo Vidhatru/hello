@@ -4,7 +4,7 @@ import calendar
 from firebase_admin import credentials, firestore
 from datetime import date,datetime
 if not firebase_admin._apps:
-    cred1=credentials.Certificate("hello-744b5-firebase-adminsdk-fbsvc-7a93d1a4c1.json")
+    cred1=credentials.Certificate("expense-tracker-3d8c7-firebase-adminsdk-fbsvc-cd5bde5936.json")
     firebase_admin.initialize_app(cred1)
 db = firestore.client()
 st.title("Expense Tracker")
