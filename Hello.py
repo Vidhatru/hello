@@ -26,7 +26,7 @@ def run():
 
     st.write("# Welcome to Expense Tracker App! 👋")
 
-    st.sidebar.success("This website helps you to keep track and manage your day to day expenses!")
+    st.write("This website helps you to keep track and manage your day to day expenses!")
 
 
 if __name__ == "__main__":
